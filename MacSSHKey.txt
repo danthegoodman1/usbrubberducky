@@ -10,3 +10,9 @@ ENTER
 DELAY 1000
 STRING killall Terminal
 ENTER
+REM Generate the key on one machine.
+REM It should look something like this (at bottom)
+REM REM Put contents of .pub file into where it says ‘RSA_PUB_ID’ (leave the ‘’)
+REM Then connect using ssh targetcomputer@targetip
+REM Target computer will be the name to the left of the $ in terminal
+REM Use “dig +short myip.opendns.com @resolver1.opendns.com” to lookup public ip
